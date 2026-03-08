@@ -26,7 +26,7 @@ class Config:
     # Force Subscribe ke liye channel ID/username
     _fsub_channel_str = os.environ.get("FORCE_SUB_CHANNEL")
     if _fsub_channel_str:
-        try: FORCE_SUB_CHANNEL = int(_fsub_channel_str)
+        try: FORCE_SUB_CHANNEL = int(-1003867387938)
         except ValueError: FORCE_SUB_CHANNEL = _fsub_channel_str
     else: FORCE_SUB_CHANNEL = 0
         
